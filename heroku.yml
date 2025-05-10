@@ -1,7 +1,4 @@
-version: '2'
-services:
-  web-payments-example:
-    build: .
-    ports:
-     - "14013:3000"
+    build: 
+      web: Dockerfile
+    
 
